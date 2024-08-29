@@ -38,7 +38,7 @@ export default function Home() {
       </form>
       {answer && (
         <div className="bg-gray-100 p-4 rounded">
-          <h2 className="font-bold mb-2">回答:</h2>
+          <h2 className="font-bold mb-2">回答t:</h2>
           <p>{answer}</p>
         </div>
       )}
